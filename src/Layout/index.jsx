@@ -4,7 +4,7 @@ import Header from "./Header";
 function index() {
   return (
     <>
-      {alert("login : user1, password : user1")}
+      
       <Header />
       <Content />
     </>
