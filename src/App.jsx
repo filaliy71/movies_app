@@ -24,7 +24,7 @@ function App() {
     <>
       <Routes>
         <Route element={<Layout />}>
-          {alert("login : user1, password : user1");}
+          {alert("login : user1, password : user1")}
           <Route index element={<Login />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
