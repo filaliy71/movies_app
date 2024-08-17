@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import TvCard from "./tvCard";
+import TvCard from "./TvCard";
 
 function TvShows() {
   const tv = useSelector((state) => state.home.tv_List);
