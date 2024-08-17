@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import TvCard from "./tvCard";
+import TvCard from "./TvCard";
 import Card from "./Card";
 
 function Search() {
