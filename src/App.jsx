@@ -19,11 +19,12 @@ function App() {
   useEffect(() => {
     dispatch(fetchData());
   }, [dispatch]);
-  alert("login : user1, password : user1");
+  
   return (
     <>
       <Routes>
         <Route element={<Layout />}>
+          {alert("login : user1, password : user1");}
           <Route index element={<Login />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
