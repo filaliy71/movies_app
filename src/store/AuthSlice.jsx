@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-const api = "http://localhost:5173/LoginData.json";
+const api = "/LoginData.json";
 export const fetchData = createAsyncThunk("store/fetchData", async () => {
   return fetch(api)
     .then((res) => res.json())
