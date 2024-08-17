@@ -19,6 +19,7 @@ function App() {
   useEffect(() => {
     dispatch(fetchData());
   }, [dispatch]);
+  alert("login : user1, password : user1");
   return (
     <>
       <Routes>
